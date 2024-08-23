@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2TN6NM5h9lkXiPJyQs4ie4ISX1psjqycY5oK6a65XUI=",
+  "Source": "SendNotificationToClient",
+  "BasePath": "_content/SendNotificationToClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

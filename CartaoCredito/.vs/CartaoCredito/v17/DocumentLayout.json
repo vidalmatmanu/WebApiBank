@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|c:\\users\\emanuele\\source\\repos\\services\\microservices\\businesscase\\cartaocredito\\consumers\\cartaoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|solutionrelative:consumers\\cartaoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|c:\\users\\emanuele\\source\\repos\\services\\microservices\\businesscase\\cartaocredito\\repository\\cartoesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|solutionrelative:repository\\cartoesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|c:\\users\\emanuele\\source\\repos\\services\\microservices\\businesscase\\cartaocredito\\models\\proposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|solutionrelative:models\\proposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|c:\\users\\emanuele\\source\\repos\\services\\microservices\\businesscase\\cartaocredito\\models\\notificacaoerro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|solutionrelative:models\\notificacaoerro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|c:\\users\\emanuele\\source\\repos\\services\\microservices\\businesscase\\cartaocredito\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|c:\\users\\emanuele\\source\\repos\\services\\microservices\\businesscase\\cartaocredito\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|c:\\users\\emanuele\\source\\repos\\services\\microservices\\businesscase\\cartaocredito\\models\\cartao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|solutionrelative:models\\cartao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|c:\\users\\emanuele\\source\\repos\\services\\microservices\\businesscase\\cartaocredito\\migrations\\cartoesdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|solutionrelative:migrations\\cartoesdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|c:\\users\\emanuele\\source\\repos\\services\\microservices\\businesscase\\cartaocredito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|c:\\users\\emanuele\\source\\repos\\services\\microservices\\businesscase\\cartaocredito\\migrations\\20240821233626_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8166831-01CE-43A7-B658-2826D0C64EB7}|CartaoCredito.csproj|solutionrelative:migrations\\20240821233626_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Proposta.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Models\\Proposta.cs",
+              "RelativeDocumentMoniker": "Models\\Proposta.cs",
+              "ToolTip": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Models\\Proposta.cs",
+              "RelativeToolTip": "Models\\Proposta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T02:42:29.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificacaoErro.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Models\\NotificacaoErro.cs",
+              "RelativeDocumentMoniker": "Models\\NotificacaoErro.cs",
+              "ToolTip": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Models\\NotificacaoErro.cs",
+              "RelativeToolTip": "Models\\NotificacaoErro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T00:12:46.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartaoConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Consumers\\CartaoConsumer.cs",
+              "RelativeDocumentMoniker": "Consumers\\CartaoConsumer.cs",
+              "ToolTip": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Consumers\\CartaoConsumer.cs",
+              "RelativeToolTip": "Consumers\\CartaoConsumer.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAtwDsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:11:19.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartoesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Repository\\CartoesDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\CartoesDbContext.cs",
+              "ToolTip": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Repository\\CartoesDbContext.cs",
+              "RelativeToolTip": "Repository\\CartoesDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:07:04.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cartao.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Models\\Cartao.cs",
+              "RelativeDocumentMoniker": "Models\\Cartao.cs",
+              "ToolTip": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Models\\Cartao.cs",
+              "RelativeToolTip": "Models\\Cartao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:03:25.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartoesDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Migrations\\CartoesDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\CartoesDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Migrations\\CartoesDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\CartoesDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:37:21.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-21T23:33:18.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:01:50.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:00:26.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240821233626_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Migrations\\20240821233626_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240821233626_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Emanuele\\source\\repos\\Services\\MicroServices\\BusinessCase\\CartaoCredito\\Migrations\\20240821233626_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240821233626_InitialCreate.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvxEAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:37:39.067Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

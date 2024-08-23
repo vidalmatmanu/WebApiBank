@@ -1,0 +1,6 @@
+@PropostaCliente_HostAddress = http://localhost:5242
+
+GET {{PropostaCliente_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
