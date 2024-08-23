@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CartaoCredito"
   ],
-  "SelectedNode": "\\CartaoCredito.sln",
+  "SelectedNode": "\\CartaoCredito\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
