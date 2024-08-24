@@ -52,6 +52,19 @@ O projeto é composto pelos seguintes microserviços:
 - `fila_notificacao_erro_cartao` - Fila para mensagens de erro de cartões.
 - `fila_notificacao_erro_proposta` - Fila para mensagens de erro de propostas.
 
+## Testes Unitários
+Este projeto inclui uma suite de testes unitários para garantir a funcionalidade dos microserviços, especialmente focando no microserviço de Cadastro de Clientes. Os testes foram implementados utilizando o framework XUnit, e utilizam um banco de dados em memória configurado com o Microsoft.EntityFrameworkCore.InMemory para testar as interações com o DbContext.
+
+- Testes Realizados:
+  
+1 - Teste de Adição e Recuperação de Cliente (CanAddAndRetrieveClient):
+- Objetivo: Verificar se um cliente pode ser adicionado e posteriormente recuperado corretamente do banco de dados.
+- Descrição: Um cliente é criado e adicionado ao CadastroClientesDbContext. Em seguida, o cliente é recuperado utilizando o Find, e o teste assegura que o cliente foi adicionado e recuperado com sucesso, comparando os valores esperados.
+
+2 - Teste de Registro do DbContext (ConfigureServices_RegistersDbContext):
+- Objetivo: Garantir que o CadastroClientesDbContext está sendo registrado corretamente no serviço de injeção de dependências.
+- Descrição: O teste configura um Host e registra o DbContext usando as configurações fornecidas no appsettings.json. Em seguida, o teste verifica se o CadastroClientesDbContext foi registrado corretamente e se ele consegue se conectar ao banco de dados.
+
 ## Contribuição
 
 Sinta-se à vontade para contribuir com melhorias e correções. Para contribuir:
