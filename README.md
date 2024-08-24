@@ -24,9 +24,6 @@ O projeto é composto pelos seguintes microserviços:
    - Consome mensagens das filas de erro e notifica o serviço de Cadastro de Clientes.
    - Atualiza o status do cliente para "Erro" em caso de problemas durante o processo.
 
-5. **ErroConsumer**
-   - Consome mensagens de erro e registra ou notifica conforme necessário.
-
 ## Requisitos
 
 - .NET 8
