@@ -54,7 +54,7 @@ O projeto é composto pelos seguintes microserviços:
 ## Testes Unitários
 Este projeto inclui uma suite de testes unitários para garantir a funcionalidade dos microserviços, especialmente focando no microserviço de Cadastro de Clientes. Os testes foram implementados utilizando o framework XUnit, e utilizam um banco de dados em memória configurado com o Microsoft.EntityFrameworkCore.InMemory para testar as interações com o DbContext.
 
-- Testes Realizados:
+  ## Testes Realizados:
   
 1 - Teste de Adição e Recuperação de Cliente (CanAddAndRetrieveClient):
 - Objetivo: Verificar se um cliente pode ser adicionado e posteriormente recuperado corretamente do banco de dados.
