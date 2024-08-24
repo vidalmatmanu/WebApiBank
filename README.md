@@ -1,6 +1,6 @@
 # Microservices - WebApiBank
 
-Este projeto é um exemplo de aplicação de microserviços implementada em C# com .NET 8 e RabbitMQ. O objetivo é demonstrar a criação e a comunicação entre vários microserviços que incluem Cadastro de Clientes, Proposta de Crédito e Emissão de Cartão de Crédito, além de gerenciar erros e notificações.
+Este projeto é um exemplo de aplicação de microserviços implementada em C# com .NET 8 e RabbitMQ, utilizando SQL Server como banco relacional. O objetivo é demonstrar a criação e a comunicação entre vários microserviços que incluem Cadastro de Clientes, Proposta de Crédito e Emissão de Cartão de Crédito, além de gerenciar erros e notificações.
 
 ## Estrutura do Projeto
 
