@@ -22,7 +22,6 @@ O projeto é composto pelos seguintes microserviços:
 
 4. **Notificação de Erro (NotificacaoErroConsumer)**
    - Consome mensagens das filas de erro e notifica o serviço de Cadastro de Clientes.
-   - Atualiza o status do cliente para "Erro" em caso de problemas durante o processo.
 
 ## Requisitos
 
