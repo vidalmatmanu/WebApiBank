@@ -40,7 +40,7 @@ public class PropostaConsumer
                 {
                     var _context = scope.ServiceProvider.GetRequiredService<PropostasDbContext>();
 
-                    if (ValidarSocialSecurity(cliente!.SocialSecurity))
+                    if (ValidatorSocialSecurity(cliente!.SocialSecurity))
                     {
                         // Criar e salvar a proposta
                         var proposta = new Proposta
@@ -86,6 +86,7 @@ public class PropostaConsumer
                             MensagemErro = "Erro ao criar proposta",
                             DataOcorrencia = DateTime.UtcNow
                         };
+
                         var notificacaoMessage = JsonSerializer.Serialize(notificacaoErro);
                         var notificacaoBody = Encoding.UTF8.GetBytes(notificacaoMessage);
                         _channel.BasicPublish(exchange: "", routingKey: "fila_notificacao_erro_proposta", basicProperties: null, body: notificacaoBody);
@@ -105,7 +106,7 @@ public class PropostaConsumer
         Console.WriteLine("Aguardando mensagens...");
     }
 
-    private bool ValidarSocialSecurity(string socialSecurity)
+    private bool ValidatorSocialSecurity(string socialSecurity)
     {
         return !string.IsNullOrWhiteSpace(socialSecurity) && socialSecurity.Length == 11 && socialSecurity.All(char.IsDigit);
     }

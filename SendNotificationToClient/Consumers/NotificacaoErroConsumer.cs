@@ -36,7 +36,7 @@ namespace SendNotificationToClient.Consumers
                 var erroInfo = JsonSerializer.Deserialize<NotificacaoErro>(message);
 
                 // Notificar o microserviço de Cadastro de Clientes e atualizar o status do cliente
-                await NotificarErroAoCliente(erroInfo.ClienteId, erroInfo.MensagemErro);
+                await NotificarErroAoCliente(erroInfo.ClienteId, erroInfo.MensagemErro, erroInfo.TipoErro);
 
                 _channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
             };
@@ -45,15 +45,15 @@ namespace SendNotificationToClient.Consumers
             _channel.BasicConsume(queue: "fila_notificacao_erro_cartao", autoAck: false, consumer: consumer);
         }
 
-        private async Task NotificarErroAoCliente(Guid clienteId, string errorMessage)
+        private async Task NotificarErroAoCliente(Guid clienteId, string errorMessage, string tipoErro)
         {
             // Enviar uma solicitação HTTP POST para o microserviço de Cadastro de Clientes
             using var httpClient = new HttpClient();
             var notification = new
             {
                 ClienteId = clienteId,
-                Status = "Erro", // Atualiza o status para "Erro"
-                MensagemErro = errorMessage
+                MensagemErro = errorMessage,
+                TipoErro = tipoErro
             };
             var content = new StringContent(JsonSerializer.Serialize(notification), Encoding.UTF8, "application/json");
 

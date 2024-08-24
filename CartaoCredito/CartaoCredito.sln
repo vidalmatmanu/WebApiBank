@@ -5,8 +5,6 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartaoCredito", "CartaoCredito.csproj", "{B8166831-01CE-43A7-B658-2826D0C64EB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendNotificationToClient", "..\SendNotificationToClient\SendNotificationToClient\SendNotificationToClient.csproj", "{BF03AD3C-6EFD-4442-8E00-4A3842F1D87B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{B8166831-01CE-43A7-B658-2826D0C64EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8166831-01CE-43A7-B658-2826D0C64EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8166831-01CE-43A7-B658-2826D0C64EB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF03AD3C-6EFD-4442-8E00-4A3842F1D87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF03AD3C-6EFD-4442-8E00-4A3842F1D87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF03AD3C-6EFD-4442-8E00-4A3842F1D87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF03AD3C-6EFD-4442-8E00-4A3842F1D87B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

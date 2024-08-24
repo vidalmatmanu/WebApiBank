@@ -66,6 +66,11 @@ public class CartaoConsumer
                             cliente.Status = "Processado";
                             _context.Clientes.Update(cliente);
                             _context.SaveChanges();
+
+                            // Publicar na fila de cartão
+                            var cartaoMessage = JsonSerializer.Serialize(cartao);
+                            var cartaoBody = Encoding.UTF8.GetBytes(cartaoMessage);
+                            _channel.BasicPublish(exchange: "", routingKey: "fila_cartao_credito", basicProperties: null, body: cartaoBody);
                         }
                         else
                         {
@@ -94,6 +99,7 @@ public class CartaoConsumer
                                     MensagemErro = "Erro ao criar cartão",
                                     DataOcorrencia = DateTime.UtcNow
                                 };
+
                                 var notificacaoMessage = JsonSerializer.Serialize(notificacaoErro);
                                 var notificacaoBody = Encoding.UTF8.GetBytes(notificacaoMessage);
                                 _channel.BasicPublish(exchange: "", routingKey: "fila_notificacao_erro_cartao", basicProperties: null, body: notificacaoBody);
