@@ -64,6 +64,15 @@ Este projeto inclui uma suite de testes unitários para garantir a funcionalidad
 - Objetivo: Garantir que o CadastroClientesDbContext está sendo registrado corretamente no serviço de injeção de dependências.
 - Descrição: O teste configura um Host e registra o DbContext usando as configurações fornecidas no appsettings.json. Em seguida, o teste verifica se o CadastroClientesDbContext foi registrado corretamente e se ele consegue se conectar ao banco de dados.
 
+3 - Teste de Conexão com o Banco de Dados (CanConnectToDatabase)
+- Objetivo: Verificar se é possível estabelecer uma conexão com o banco de dados SQL Server usando a string de conexão fornecida.
+- Descrição:
+  
+Configuração do Contexto: O teste configura o DbContext (CadastroClientesDbContext) para usar um banco de dados SQL Server com a string de conexão fornecida diretamente no código. O banco de dados especificado é CadastroClientesDb, e a conexão é configurada para aceitar múltiplas consultas simultâneas e confiar no certificado do servidor.
+
+Conexão com o Banco de Dados: Um objeto CadastroClientesDbContext é criado usando as opções configuradas. O método context.Database.CanConnect() é chamado para verificar se a conexão com o banco de dados é possível.
+Validação: O teste usa Assert.True(canConnect, "Não foi possível conectar ao banco de dados."); para garantir que a conexão foi estabelecida com sucesso. Se canConnect for false, a mensagem de erro "Não foi possível conectar ao banco de dados." será exibida.
+
 ## Contribuição
 
 Sinta-se à vontade para contribuir com melhorias e correções. Para contribuir:
