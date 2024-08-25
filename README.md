@@ -66,9 +66,7 @@ Este projeto inclui uma suite de testes unitários para garantir a funcionalidad
 
 3 - Teste de Conexão com o Banco de Dados (CanConnectToDatabase)
 - Objetivo: Verificar se é possível estabelecer uma conexão com o banco de dados SQL Server usando a string de conexão fornecida.
-- Descrição:
-  
-Configuração do Contexto: O teste configura o DbContext (CadastroClientesDbContext) para usar um banco de dados SQL Server com a string de conexão fornecida diretamente no código. O banco de dados especificado é CadastroClientesDb, e a conexão é configurada para aceitar múltiplas consultas simultâneas e confiar no certificado do servidor.
+- Descrição: Configuração do Contexto: O teste configura o DbContext (CadastroClientesDbContext) para usar um banco de dados SQL Server com a string de conexão fornecida diretamente no código. O banco de dados especificado é CadastroClientesDb, e a conexão é configurada para aceitar múltiplas consultas simultâneas e confiar no certificado do servidor.
 
 Conexão com o Banco de Dados: Um objeto CadastroClientesDbContext é criado usando as opções configuradas. O método context.Database.CanConnect() é chamado para verificar se a conexão com o banco de dados é possível.
 Validação: O teste usa Assert.True(canConnect, "Não foi possível conectar ao banco de dados."); para garantir que a conexão foi estabelecida com sucesso. Se canConnect for false, a mensagem de erro "Não foi possível conectar ao banco de dados." será exibida.
