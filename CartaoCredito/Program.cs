@@ -1,4 +1,3 @@
-// Program.cs
 using CartaoCredito.Repository;
 using Microsoft.EntityFrameworkCore;
 using RabbitMQ.Client;

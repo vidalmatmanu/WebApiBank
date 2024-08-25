@@ -84,6 +84,9 @@ public class CartaoConsumer
                             };
                             _context.Cartoes.Add(cartao);
 
+                            proposta.Status = "Reprovado";
+                            _context.Propostas.Update(proposta);
+
                             if (cliente != null)
                             {
                                 // Atualizar o status do cliente para "Erro"

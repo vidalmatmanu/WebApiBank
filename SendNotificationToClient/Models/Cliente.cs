@@ -14,7 +14,7 @@
 
         public DateTime DataCadastro { get; set; }
 
-        public string Status { get; set; } = "created";
+        public string Status { get; set; }
 
     }
 }

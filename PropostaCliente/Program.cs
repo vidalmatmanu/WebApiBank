@@ -1,4 +1,3 @@
-// Program.cs
 using Microsoft.EntityFrameworkCore;
 using PropostaCredito.Repository;
 using RabbitMQ.Client;
